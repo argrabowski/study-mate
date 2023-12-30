@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.calendar.SchedulerFragment">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/set_schedule_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_main_color"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Set Schedule"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:menu="@menu/set_schedule_menu"
+            app:titleTextColor="@color/white" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule_tabs"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturaday"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="9 AM to 10 AM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:id="@+id/card_1"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="10 AM to 11 AM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:padding="5dp"
+                    android:id="@+id/card_2"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="11 AM to 12 PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:id="@+id/card_3"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="12PM to 1PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:id="@+id/card_4"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="2PM to 3PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:id="@+id/card_5"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="3PM to 4PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:id="@+id/card_6"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="5PM to 6PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:id="@+id/card_7"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="7PM to 8PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:id="@+id/card_8"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="8PM to 9PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:id="@+id/card_9"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:text="9PM to 10PM"  />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardElevation="10dp"
+                    android:id="@+id/card_10"
+                    android:background="@drawable/rounded_corners_layout"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/quantum_grey"
+                    android:layout_height="50dp">
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

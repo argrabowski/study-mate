@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:contentDescription="@string/logout"
+        app:showAsAction="ifRoom"
+        android:id="@+id/toolbar_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/baseline_logout_24" />
+
+    <item android:contentDescription="Set Schedule"
+        app:showAsAction="ifRoom"
+        android:id="@+id/toolbar_set_schedule"
+        android:title="Set Schedule"
+        android:icon="@drawable/baseline_edit_calendar_24" />
+
+    <item android:contentDescription="@string/add_file"
+        app:showAsAction="never"
+        android:id="@+id/toolbar_add_file"
+        android:title="@string/add_file" />
+
+</menu>

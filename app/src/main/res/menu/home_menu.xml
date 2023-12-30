@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionSearch"
+        android:title="@string/search"
+        android:icon="@drawable/baseline_search_24_white"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:contentDescription="@string/content_description_search"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:contentDescription="@string/register_course"
+        app:showAsAction="ifRoom"
+        android:id="@+id/toolbar_register_course"
+        android:title="@string/register_course"
+        android:icon="@drawable/baseline_add_24" />
+
+</menu>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">StudyMate</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="click_to_register">Register Account</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_display_name">Display Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="welcome">"Welcome!  "</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_username">Username must be >5 characters</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_location">Not a valid location</string>
+    <string name="invalid_account_role">Please Select an Account Role</string>
+    <string name="invalid_displayName">Please enter a display name</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_failed">"Register failed"</string>
+    <string name="invalid_login"> Invalid Username or Password</string>
+    <string name="loading">Loading…</string>
+    <string name="select_location">Select University</string>
+    <string name="tutor_finder">Tutor Finder</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="account_type">Account Type</string>
+    <string name="register_course">Register Course</string>
+    <string name="search">Search</string>
+    <string name="content_description_search">Search For Items</string>
+    <string name="no_values_match_the_search">No values match the search</string>
+    <string name="class_name">Class Name</string>
+    <string name="enter_course_instructor">Enter Course Instructor</string>
+    <string name="submit">Submit</string>
+    <string name="enter_course_department">Enter Course Department</string>
+    <string name="view_my_files">View My Files</string>
+    <string name="study_spot_finder">Study Spot Finder</string>
+    <string name="study_spots">Study Spots</string>
+    <string name="study_buddy_finder">Study Buddy Finder</string>
+    <string name="study_buddies">Study Buddies</string>
+    <string name="add_file">Add File</string>
+    <string name="file_name">File Name</string>
+    <string name="file_description">File Description</string>
+    <string name="take_image">Take Image</string>
+
+    <string name="study_file_added">
+        Study Resource File
+    </string>
+
+    <string name="no_study_file_added">
+        No Study Resource File
+    </string>
+    <string name="file_image">File Image</string>
+    <string name="add_custom_study_spot">Add Custom Study Spot</string>
+    <string name="study_spot_name">Study Spot Name</string>
+    <string name="study_spot_description">Study Spot Description</string>
+    <string name="select_radius_size">Select Radius Size</string>
+    <string name="has_parent_study_spot">Has Parent Study Spot</string>
+    <string name="select_parent_location">Select Parent Location</string>
+    <string name="building_room_max_occupants">Building/Room Max Occupants</string>
+    <string name="enter_spot_latitude">Latitude</string>
+    <string name="enter_spot_longitude">Longitude</string>
+    <string name="view_study_spot_map">View Study Spot Map</string>
+    <string name="view_map">View Map</string>
+    <string name="register_study_spot">Register Study Spot</string>
+    <string name="enter_study_group_name">Enter Study Group Name</string>
+    <string name="enter_study_group_description">Enter Study Group Description</string>
+    <string name="is_group_private">Private Group</string>
+    <string name="enter_group_users">Enter Group Users</string>
+    <string name="enter_username_to_invite">Enter Username to Invite</string>
+    <string name="view_group_detail_information">View Group Detail Information</string>
+    <string name="view_details">View Details</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">Send</string>
+    <string name="file_path">File Path</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="translate_language">Translate Language</string>
+    <string name="creator">Creator</string>
+    <string name="transcript">Transcript</string>
+    <string name="created_date">Created Date</string>
+    <string name="download_url">Download URL</string>
+    <string name="translated_text">Translated Text</string>
+    <string name="translate_to_language">Translate To</string>
+    <string name="translate_from_language">Translate From</string>
+    <string name="studymate"> StudyMate </string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="password_reset">Reset Password</string>
+    <string name="location">Location</string>
+    <string name="account_role">Account Role</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Dutch</item>
+        <item>Russian</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+    </string-array>
+
+</resources>

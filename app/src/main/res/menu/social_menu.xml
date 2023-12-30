@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:contentDescription="@string/add_custom_study_spot"
+        app:showAsAction="ifRoom"
+        android:id="@+id/toolbar_register_study_spot"
+        android:title="@string/add_custom_study_spot"
+        android:icon="@drawable/baseline_add_24" />
+
+
+</menu>
