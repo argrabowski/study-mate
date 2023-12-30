@@ -1,8 +1,8 @@
-# CS_528_Final_Project
+# Study Mate Android App
 
 ## Overview
 
-Welcome to the CS_528_Final_Project! This Android application is designed to enhance your study experience, offering a range of features to support your academic journey. Before diving in, ensure your Android device is compatible, and follow the steps below to set up the app.
+This Android application is designed to enhance your study experience, offering a range of features to support your academic journey. Before diving in, ensure your Android device is compatible, and follow the steps below to set up the app.
 
 ## Getting Started
 
